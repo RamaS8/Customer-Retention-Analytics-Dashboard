@@ -1,15 +1,24 @@
-# Customer-Retention-Analytics-Dashboard
-A Power BI dashboard that analyzes customer churn to identify who leaves, when, and why. It highlights high-risk segments—early-tenure, month-to-month users—and quantifies ~$139K revenue loss, enabling product, marketing, and BizOps teams to design data-driven retention strategies.
 # 📊 ChurnLens: Customer Retention Analytics Dashboard
 
-ChurnLens is a Power BI dashboard built to move beyond reporting churn and instead explain **why customers leave and how businesses can act on it**.
+ChurnLens is an interactive Power BI dashboard that transforms customer churn data into actionable business insights—helping teams understand **who is leaving, when they leave, and why it happens**.
+
+---
+
+## 📖 Project Description
+
+ChurnLens is a customer retention analytics dashboard designed to move beyond tracking churn and instead explain **why customers leave and how businesses can act on it**. By analyzing behavior across contract types, tenure, and payment methods, it reveals that churn is concentrated among early-stage, low-commitment users—particularly month-to-month customers using electronic check.
+
+The dashboard shifts the focus from **reactive reporting to proactive strategy** by identifying high-risk segments, quantifying revenue impact (~$139K), and enabling targeted interventions such as improving onboarding, incentivizing long-term contracts, and optimizing payment systems.
+
+Serving as a decision-making tool for product, marketing, and strategy teams, ChurnLens demonstrates how data analytics can drive customer retention, revenue optimization, and sustainable growth in subscription-based businesses.
 
 ---
 
 ## 🚀 Why I Built This
 
-Most churn dashboards stop at showing a percentage.  
-However, churn is not just a metric — it is a **business problem tied to customer behavior, product experience, and revenue loss**.
+Most churn dashboards stop at reporting a percentage.
+
+However, churn is not just a metric—it is a **business problem tied to customer behavior, product experience, and revenue loss**.
 
 I built ChurnLens to answer a deeper question:
 
@@ -17,36 +26,38 @@ I built ChurnLens to answer a deeper question:
 
 ---
 
-## 🎯 What This Dashboard Does
+## 🎯 Key Objectives
 
-ChurnLens transforms raw customer data into a **decision-making tool** by analyzing churn across:
-
-- Contract types (customer commitment)
-- Tenure (customer lifecycle stage)
-- Payment methods (behavioral friction)
-- Revenue impact (business consequence)
-
----
-
-## 📊 Dashboard Story (What It Reveals)
-
-The dashboard uncovers a clear pattern:
-
-- The business relies heavily on **month-to-month customers**, who have the lowest commitment  
-- Churn is **highest in early customer tenure**, indicating onboarding and early experience issues  
-- Customers using **electronic check show the highest churn (~54%)**, suggesting payment friction  
-- Together, these factors form a **high-risk segment driving disproportionate revenue loss (~$139K)**  
-
-👉 Churn is not random — it is concentrated and predictable
+- Identify high-risk customer segments  
+- Analyze churn behavior across customer lifecycle  
+- Understand impact of contract types and payment methods  
+- Quantify revenue loss due to churn  
+- Enable data-driven retention strategies  
 
 ---
 
-## 💡 Key Insights
+## 📊 Dashboard Features
 
-- Month-to-month contracts drive the highest churn (~42%)
-- Early-stage customers are the most vulnerable
-- Payment method significantly influences retention
-- Long-term contracts (2-year) show strong customer stability
+### 🔹 KPI Metrics
+- Total Customers  
+- Churn Rate  
+- Churned Customers  
+- Revenue Lost  
+
+### 🔹 Analytical Visuals
+- Customer Distribution by Contract Type  
+- Churn Risk by Contract Type  
+- Early Customer Churn Risk (Tenure Analysis)  
+- Heatmap: Churn Rate by Contract × Payment Method  
+
+---
+
+## 📈 Key Insights
+
+- Month-to-month contracts have the highest churn (~42%)  
+- Early-stage customers are most likely to churn  
+- Electronic check users show significantly higher churn (~54%)  
+- Long-term contracts (2-year) have the lowest churn (~3%)  
 
 ---
 
@@ -54,11 +65,11 @@ The dashboard uncovers a clear pattern:
 
 ChurnLens enables organizations to:
 
-- Identify high-risk customer segments early  
-- Design targeted retention strategies  
+- Detect high-risk customer segments early  
 - Improve onboarding and early customer experience  
-- Optimize payment systems to reduce friction  
-- Quantify revenue at risk and prioritize interventions  
+- Encourage long-term customer commitment  
+- Optimize payment methods to reduce friction  
+- Reduce churn-driven revenue loss  
 
 👉 Shifts teams from **reactive reporting → proactive decision-making**
 
@@ -66,8 +77,26 @@ ChurnLens enables organizations to:
 
 ## 🛠️ Tools & Technologies
 
-- Power BI (Dashboarding & Visualization)
-- Power Query (Data Cleaning)
-- DAX (KPIs: Churn Rate, Revenue Loss, Segmentation)
+- **Power BI** – Data visualization & dashboard design  
+- **Power Query** – Data cleaning & transformation  
+- **DAX** – KPI calculations (Churn Rate, Revenue Loss)  
+
+---
+
+## 📂 Dataset
+
+- Telecom Customer Churn Dataset  
+- Includes customer demographics, services, contract types, and billing information  
+
+
+## 🧠 Skills Demonstrated
+
+- Data Cleaning & Transformation  
+- Data Modeling & DAX  
+- Business Analytics & KPI Design  
+- Data Visualization & Dashboarding  
+- Insight Generation & Storytelling  
+
+
 
 
